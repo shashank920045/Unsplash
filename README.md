@@ -10,6 +10,7 @@ In App.js render function we are mainly doing 2 things: Infinite Scroll and popp
 
 React-Infinite-Scroll Component will handle the Infinite Scroll for us.
 Popping up Modal can be achieved by setting react state for selectedImage to url.
+Fetching images function doesnt have an offset because unsplash api gives new st of images every time we try to fetch.
 
 I have also added Framer Motion animation in Pop-up Modal.
 
